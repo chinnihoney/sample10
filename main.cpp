@@ -11,6 +11,10 @@ int main()
     for_each(v1.begin(),v1.end(),[&sum](const auto &x){cout<<x<<"";sum+=x;});
     cout<<"}";
     cout<<"sum of vector elements"<<sum<<endl;
+    cout<<"hi"<<endl;
+
+
+    cout<<"i love india";
     return 0;
     
 
