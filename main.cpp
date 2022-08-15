@@ -11,6 +11,14 @@ int main()
     for_each(v1.begin(),v1.end(),[&sum](const auto &x){cout<<x<<"";sum+=x;});
     cout<<"}";
     cout<<"sum of vector elements"<<sum<<endl;
+    cout<<"hi";
+
+    sort(v1.begin(),v1.end(),greater<int>());
+    cout<<"v1: {";
+    for_each(v1.begin(),v1.end(),[](const auto &x){cout<<x;});
+    cout<<"}";
+    
+
     return 0;
     
 
